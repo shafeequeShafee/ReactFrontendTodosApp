@@ -2,7 +2,9 @@
 import './App.css';
 
 
+
 // import NavBar from './RouterComponents/NavBar';
+
 import Todo from './components/Todo';
 
 function App() {
@@ -10,8 +12,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <NavBar/> */}
-        <Todo/>
-       
+        <Todo welcomeNote="Whoop, it's your day"/>
+
+
+
+      
+        
+      
       </header>
     </div>
   );
